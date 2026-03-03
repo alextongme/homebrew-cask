@@ -1,6 +1,6 @@
 cask "count-tongulas-eye-break" do
-  version "0.5.2"
-  sha256 "3b42dd3ae1c55a6ec66f295b5bcb1a3e1eb3c54c87ee9822038f2eb78ac8adc9"
+  version "0.6.0"
+  sha256 "c9e99f0048bbcc7b9ebbb2f7512d7b5be3d99427f3958d5688b17d55dfe1bb67"
 
   url "https://github.com/alextongme/count-tongulas-eye-break/releases/download/v#{version}/CountTongulasEyeBreak-#{version}.zip"
   name "Count Tongula's Eye Break"
