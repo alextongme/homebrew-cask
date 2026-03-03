@@ -10,9 +10,10 @@ cask "count-tongulas-eye-break" do
   app "Count Tongula's Eye Break.app"
 
   postflight do
-    # Strip quarantine flag (app is not code-signed)
+    # Strip quarantine flag (app is not code-signed, needs sudo for /Applications)
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/Count Tongula's Eye Break.app"]
+                   args: ["-cr", "#{appdir}/Count Tongula's Eye Break.app"],
+                   sudo: true
     # Launch the app (sets up LaunchAgent on first run)
     system_command "open", args: ["#{appdir}/Count Tongula's Eye Break.app"]
   end
