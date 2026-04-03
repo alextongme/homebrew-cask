@@ -1,8 +1,8 @@
 cask "count-tongulas-eye-break" do
-  version "0.10.2"
-  sha256 "c55c54c82b6c7788b8554c3ffe71c565f950336b0fb83bec5bc018c99581a19d"
+  version "0.11.1"
+  sha256 "430e822a3118ec327cabd0972ec9f2d5e0a472f672731917cb75f7d6c06747e7"
 
-  url "https://github.com/alextongme/count-tongulas-eye-break/releases/download/v#{version}/CountTongulasEyeBreak-#{version}.zip"
+  url "https://github.com/alextongme/count-tongulas-eye-break-releases/releases/download/v#{version}/CountTongulasEyeBreak-#{version}.zip"
   name "Count Tongula's Eye Break"
   desc "Menu bar app that reminds you to rest your eyes using the 20-20-20 rule"
   homepage "https://github.com/alextongme/count-tongulas-eye-break"
